@@ -1,0 +1,23 @@
+/* 전역 적으로 사용할 스타일 */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
